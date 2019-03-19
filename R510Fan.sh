@@ -7,9 +7,9 @@
 # ipmitool -I lanplus -H $IPMIHOST -U $IPMIUSER -P $IPMIPW raw 0x30 0x30 0x01 0x01
  
 # IPMI SETTINGS:
-IPMIHOST=192.168.10.15
+IPMIHOST=111.222.333.4444
 IPMIUSER=root
-IPMIPW=Wireless-12
+IPMIPW=calvin
  
 # TEMPERATURE
 # If the temperature goes above the set degrees it will send raw IPMI command to enable dynamic fan control
