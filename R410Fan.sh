@@ -5,15 +5,15 @@
 # and if deemed to high send the raw IPMI command to enable dynamic fan control.
 #
 # Requires ipmitool – apt-get install ipmitool
-# Tested on Ubuntu 17.04
+# 
 # ----------------------------------------------------------------------------------
 
 
 # IPMI DEFAULT R410 SETTINGS
 # Modify to suit your needs.
-IPMIHOST=192.168.10.16
+IPMIHOST=111.222.333.444
 IPMIUSER=root
-IPMIPW=Wireless-12
+IPMIPW=calvin
 
 # TEMPERATURE
 # Change this to the temperature in celcius you are comfortable with. 
